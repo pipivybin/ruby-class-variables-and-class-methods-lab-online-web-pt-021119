@@ -46,7 +46,7 @@ class Song
   end
 
   def self.artist_count
-    @@artists.length
+    @@artists.each {|x| hashh[x] += 1}
   end
 
 end

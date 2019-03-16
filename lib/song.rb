@@ -40,7 +40,8 @@ class Song
   end
 
   def self.genre_count
-    @@genres.count_if {|x| x}
+    hashh = {}
+    @@genres.each {|x| x}
   end
 
   def self.artist_count
